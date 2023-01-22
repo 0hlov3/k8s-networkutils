@@ -1,4 +1,4 @@
-FROM alpine:3.16.2
+FROM alpine:3.17.1
 
 LABEL MAINTAINER="0hlov3" \
       description="Container to Deploy into Kubernetes for Network debugging and testing."
@@ -18,7 +18,7 @@ ARG APK_PACKAGES="bash \
                   
                   
 
-ENV KUBECTL_VERSION="v1.25.2"
+ENV KUBECTL_VERSION="v1.26.1"
 
 RUN apk --no-cache add --update $APK_PACKAGES && \
     # Download latest Kubectl
