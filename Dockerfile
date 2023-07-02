@@ -13,6 +13,7 @@ ARG APK_PACKAGES="bash \
                   nmap \
                   openssh-client \
                   tcpdump \
+                  telnet \
                   vim \
                   wget"
                   

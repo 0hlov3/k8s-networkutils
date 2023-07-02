@@ -15,5 +15,6 @@ Included tools:
 - nmap
 - openssh-client
 - tcpdump
+- telnet
 - vim
 - wget
