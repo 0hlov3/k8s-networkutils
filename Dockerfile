@@ -5,6 +5,7 @@ LABEL MAINTAINER="0hlov3" \
 
 ARG APK_PACKAGES="bash \
                   bind-tools \
+                  busybox-extras \
                   curl \
                   iputils \
                   iperf3 \
@@ -13,7 +14,6 @@ ARG APK_PACKAGES="bash \
                   nmap \
                   openssh-client \
                   tcpdump \
-                  telnet \
                   vim \
                   wget"
                   
