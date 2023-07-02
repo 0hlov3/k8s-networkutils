@@ -19,7 +19,7 @@ ARG APK_PACKAGES="bash \
                   
                   
 
-ENV KUBECTL_VERSION="v1.26.1"
+ENV KUBECTL_VERSION="v1.27.3"
 
 RUN apk --no-cache add --update $APK_PACKAGES && \
     # Download latest Kubectl
