@@ -1,4 +1,4 @@
-FROM alpine:3.21.3
+FROM alpine:3.22.0
 
 LABEL MAINTAINER="0hlov3" \
       description="Container to Deploy into Kubernetes for Network debugging and testing."
