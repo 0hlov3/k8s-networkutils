@@ -1,10 +1,10 @@
-FROM alpine:3.21.3
+FROM alpine:3.22.0
 
 LABEL MAINTAINER="0hlov3" \
       description="Container to Deploy into Kubernetes for Network debugging and testing."
 
 ARG TARGETARCH
-ARG KUBECTL_VERSION="v1.32.0"
+ARG KUBECTL_VERSION="v1.33.1"
 
 ENV KUBECTL_ARCH=${TARGETARCH}
 
@@ -18,6 +18,7 @@ ARG APK_PACKAGES="bash \
                   netcat-openbsd \
                   nmap \
                   openssh-client \
+                  openssl \
                   tcpdump \
                   vim \
                   wget"

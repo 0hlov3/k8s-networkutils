@@ -3,7 +3,7 @@
 A lightweight Alpine-based container with essential network debugging tools for Kubernetes environments.
 
 ## Features
-- **Comprehensive Network Toolkit**: `bind-tools`, `curl`, `iputils`, `iperf3`, `mtr`, `netcat`, `nmap`, `openssh-client`, `tcpdump`, `telnet`, `vim`, `wget`.
+- **Comprehensive Network Toolkit**: `bind-tools`, `curl`, `iputils`, `iperf3`, `mtr`, `netcat`, `nmap`, `openssh-client`, `openssl`, `tcpdump`, `telnet`, `vim`, `wget`.
 - **kubectl Pre-installed**: Comes with `kubectl` for interacting with Kubernetes directly.
 - **Minimal & Efficient**: Built on Alpine Linux for small size and fast deployment.
 
