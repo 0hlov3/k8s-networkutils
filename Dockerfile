@@ -4,7 +4,7 @@ LABEL MAINTAINER="0hlov3" \
       description="Container to Deploy into Kubernetes for Network debugging and testing."
 
 ARG TARGETARCH
-ARG KUBECTL_VERSION="v1.33.1"
+ARG KUBECTL_VERSION="v1.33.3"
 
 ENV KUBECTL_ARCH=${TARGETARCH}
 
